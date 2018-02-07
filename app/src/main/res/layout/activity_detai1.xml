@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="camp.bso.inf.papanscore.DetaiActivity1">
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:background="#0000ff"
+        android:fontFamily="cursive"
+        android:text="PERSIB BANDUNG"
+        android:textColor="#ffff"
+        android:textSize="30dp" />
+
+    <ImageView
+
+        android:layout_width="350dp"
+        android:layout_height="150dp"
+        android:layout_gravity="center_horizontal"
+        android:src="@drawable/persib"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:fontFamily="cursive"
+        android:text="Pada tanggal 20 Agustus 2009 di Pendopo Kota Bandung, Dada melakukan pertemuan dengan melibatkan elemen sepakbola di Bandung, seperti pengurus Persib, mantan pemain Persib, pengamat sepakbola, bobotoh, pejabat pemerintahan Kota Bandung, untuk membicarakan masa depan Persib yang harus berubah menjadi badan hukum. Ada empat nama perusahaan yang disodorkan peserta pertemuan, yakni PT Persib Maung Bandung, PT Persib Bandung Bermartabat, PT Persib Pangeran Biru, dan PT Persib Bandung Raya. Setelah diadakan musyawarah, semua sepakat memilih nama PT Persib Bandung Bermartabat."
+        android:textSize="13dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:fontFamily="cursive"
+        android:text="Setelah itu, Dada memercayakan kepada H Umuh Muchtar untuk menjalankan perusahaan (Persib) agar tetap bisa ikut kompetisi. Tugas tersebut cukup berat karenai iklim sepakbola profesional di Indonesia belum menjadi industri yang menjanjikan bagi investor. Sempat terombang-ambing antara ikut dan tidak karena kegiatan kompetisi tinggal sebulan lagi, Umuh yang mendapat dukungan berbagai pihak, berhasil menggandeng investor untuk membawa Persib menjadi klub profesional. "
+        android:textSize="13dp" />
+
+    <Button
+        android:id="@+id/btnlink1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="klik" />
+
+</LinearLayout>
+
